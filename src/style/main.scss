@@ -1,5 +1,7 @@
 html {
-    font-size: 62.5%; // 1rem is 10px
+    font-size: 1em; // 1rem is 10px
+    background-color: ivory;
+    text-align: center;
 }
 
 *,
@@ -25,4 +27,29 @@ body {
     margin-top: 2rem;
     display: grid;
     justify-items: center;
+}
+.homeClass{
+   display: flex;
+   flex-direction: column;
+}
+
+.flag{
+    margin-top: 10px;
+    width: 30%;
+    margin-bottom: 10px;
+}
+
+a{
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+    color: green;
+    transition: .75s;
+}
+a:hover{
+    color:red;
+    font-size: 1.3em;
+}
+.title{
+    color:goldenrod ;
 }
